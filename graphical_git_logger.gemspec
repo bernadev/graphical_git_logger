@@ -6,12 +6,12 @@ require 'graphical_git_logger/version'
 Gem::Specification.new do |spec|
   spec.name          = "graphical_git_logger"
   spec.version       = GraphicalGitLogger::VERSION
-  spec.authors       = ["Bernardo Guerrero"]
-  spec.email         = ["bernardo.guerrero.dev@gmail.com"]
+  spec.authors       = ["Bernardo Guerrero", "Diego Rubio"]
+  spec.email         = ["bernardo.guerrero.dev@gmail.com", "diegomichel@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Rendering Git log using SVG}
+  spec.description   = %q{Draws the Git log tracking from your project using D3}
+  spec.homepage      = "https://github.com/bernadev/graphical_git_logger"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
